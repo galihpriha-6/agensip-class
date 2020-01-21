@@ -52,14 +52,6 @@
     cursor: grabbing
 }
 
-.glider-slide {
-    user-select: none;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    min-width: 150px
-}
-
 .glider-slide img {
     max-width: 100%
 }
