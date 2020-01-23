@@ -352,9 +352,13 @@
     margin-top: 53px;
 }
 
-.section3-card-img {
+.why-card-img {
     margin-top: 0px;
     margin-left: 0px;
+}
+
+.why-body {
+    padding-left: 0px;
 }
 
 .section3-title {  
@@ -366,15 +370,15 @@
     margin-bottom: 110px;
 }
 
-.section3-card-title {
-    max-height: 183px;
+.why-card-title {
+    max-width: 183px;
     max-height: 66px;      
     color: #233653; 
     font-size: 15px;     
     line-height: 22px;
 }
 
-.section3-card-text {
+.why-card-text {
     height: 60px;      
     opacity: 0.8;   
     color: #536175;  
@@ -406,13 +410,13 @@
 
 /* Section 4 */
 
-.section4 {
+.background-4 {
+    background-color: #2780FF;
+    border-radius: 0px 360px 0px 0px;
+    width: 100%;
+    height: 769px;
     margin-top: 226px;
     padding-top: 127px;
-    background: url('./assets/section-4/begron-biru.svg') no-repeat;
-    height: 1804px;
-    background-size: cover;
-    width: 100%;
 }
 
 .section4-title {
@@ -449,6 +453,7 @@
 
 .arrow {
     margin-right: 20px;
+    margin-left: auto;
 }
 
 .arrow-left,
@@ -470,6 +475,10 @@
     padding-right: 0px !important;
 }
 
+.prof-content {
+    margin-top: 34px;
+}
+
 .testi-text {
     max-width: 280px;   
     color: #6D7385;  
@@ -478,10 +487,35 @@
     line-height: 30px;
 }
 
-.testi-img {
-    box-sizing: border-box; 
-    height: 61px;   
+.testi-img-1 {
+    box-sizing: border-box;
+    background-image: url('./assets/section-4/testi-img1.png');
+    background-repeat: no-repeat;
+    height: 61px;
     width: 61px;
+    padding: 0px;
+}
+
+.testi-img-2 {
+    box-sizing: border-box;
+    background-image: url('./assets/section-4/testi-img2.png');
+    background-repeat: no-repeat;
+    height: 61px;
+    width: 61px;
+    padding: 0px;
+}
+
+.testi-img-3 {
+    box-sizing: border-box;
+    background-image: url('./assets/section-4/testi-img3.png');
+    background-repeat: no-repeat;
+    height: 61px;
+    width: 61px;
+    padding: 0px;
+}
+
+.testi-prof {
+    padding: 8px 0px 0px 10px;
 }
 
 .testi-name {
@@ -502,8 +536,19 @@
 
 /* Section 4-2 */
 
-.section4-2 {
-    margin-top: 200px;
+.backgdround-4-2 {
+    background-color: #2780FF;
+    padding-left: 90px;
+    width: 100%;
+    height: 935px;
+}
+
+.background-4-2-in {
+    box-sizing: border-box;
+    background-color: #2C6AC2;
+    border-radius: 360px 0px 0px 0px;
+    width: 100%;
+    height: 1035px;
 }
 
 #section4-2 {
@@ -879,6 +924,12 @@ footer {
     }
 }
 
+@media (max-width: 880px) {
+    .bg-right {
+        display: none;
+    }
+}
+
 @media (max-width: 767px) {
     .hero-banner {
         margin: 30px auto;
@@ -901,35 +952,89 @@ footer {
     .why-card {
         margin-top: 40px;
     }
-    /*.section3-img1 {
-        height: 390px; 
-        width: 290px;
-        position: absolute;
-        left: 460px;
+    .section4-header {
+        margin-left: -80px;
     }
-
-    .section3-img2 {
-        height: 150px; 
-        width: 150px;
-        position: absolute;
-        top: -50px;
-        left: 400px;
-    }
-
-    .section3-img3 {
-        height: 190px; 
-        width: 170px;
-        position: absolute;
-        top: 320px;
-        left: 600px;
-    }*/
     .accordion {
         width: 100%;
-        margin: auto;
+        margin-left: -40px;
     }
 }
 
 @media (max-width: 576px) {
+    .hero-banner {
+        margin: 50px 0px 0px 30px;
+    }
+    .background-4 {
+        border-radius: 0px 270px 0px 0px; 
+    }
+    .background-4-2-in {
+        border-radius: 270px 0px 0px 0px;
+    }
+    .section4-title {
+        margin-left: 30px;
+    }
+    .arrow {
+        padding-top: 5px;
+        margin-left: 60px;
+    }
+    .testimonial-cards {
+        padding-left: 30px;
+    }
+    .testi-card {
+        padding-top: 10px;
+    }
+    .testi-text {
+        font-size: 16px; 
+    }
+    .prof-content {
+        margin-top: 25px;
+    }
+    .testi-img-1,
+    .testi-img-2,
+    .testi-img-3 {
+        margin: 0px auto;
+    }
+    .testi-prof {
+        padding-left: 0px;
+        margin: 0px auto;
+    }
+    .testi-name {
+        font-size: 16px;
+        margin: 0px auto;
+    }
+    .testi-job {
+        font-size: 12px;
+        margin: 0px auto;
+    }
+    .why-card {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .why-body {
+        padding-right: 0px;
+        width: 100%;
+    }
+    .why-card-title {
+        width: 150px;     
+        text-align: left;
+        color: #233653; 
+        font-size: 15px;     
+        line-height: 22px;
+    }
+
+    .why-card-text {
+        text-align: left;
+        height: 60px;      
+        opacity: 0.8;   
+        color: #536175;  
+        font-size: 13px;     
+        letter-spacing: 0.2px;  
+        line-height: 20px;
+    }
+    .row2 {
+        margin-top: 20px;
+    }
     .testi-card {
         width: 250px;
     }
