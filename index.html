@@ -8,8 +8,7 @@
     <title>Agensip Class</title>
     
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Glider CSS -->
     <link rel="stylesheet" type="text/css" href="glider.min.css">
     <!-- My CSS -->
@@ -24,19 +23,20 @@
 <body>
     <!-- Navbar -->
     <div id="section-top"></div>
-    <nav class="navbar navbar-expand-lg bg-navbar fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-navbar fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="./assets/navbar/agensip-logo.svg"
                     alt="agensipclass-logo"></a>
             <a class="navbar-brand-none" href="index.html"><img src="./assets/navbar/icon-class.svg"
                     alt="agensipclass-logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <i class="fas fa-bars"></i>
-                </span>
+            <button class="navbar-toggler border-0 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-nav"
+                aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->         
+                <span class="line"></span>
+               <span class="line"></span>
+               <span class="line"></span>   
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbar-nav">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link" href="#home">Beranda</a>
                     <a class="nav-item nav-link" href="#section2">Daftar Kelas</a>
@@ -91,9 +91,13 @@
                             <p class="mentor-text">Mentor</p>
                             <img class="mentor-img" src="./assets/section-2/mentor-img/mentor1@2x.png" style="width: 37px; height: 37px">
                         </div>
-                        <div class="card-buttons">
-                            <a class="btn card-btn1" href="#">Daftar</a>
-                            <a class="btn card-btn2" href="#">Lihat Detail</a>
+                        <div class="card-buttons row">
+                            <div class="col-sm-12 col-xl-6">
+                                <a class="btn card-btn1" href="#">Daftar</a>
+                            </div>
+                            <div class="col-sm-12 col-xl-6">
+                                <a class="btn card-btn2" href="#">Lihat Detail</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,9 +113,13 @@
                             <p class="mentor-text">Mentor</p>
                             <img class="mentor-img" src="./assets/section-2/mentor-img/mentor2@2x.png" style="width: 37px; height: 37px">
                         </div>
-                        <div class="card-buttons">
-                            <a class="btn card-btn1" href="#">Daftar</a>
-                            <a class="btn card-btn2" href="#">Lihat Detail</a>
+                        <div class="card-buttons row">
+                            <div class="col-sm-12 col-xl-6">
+                                <a class="btn card-btn1" href="#">Daftar</a>
+                            </div>
+                            <div class="col-sm-12 col-xl-6">
+                                <a class="btn card-btn2" href="#">Lihat Detail</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -128,9 +136,13 @@
                             <p class="mentor-text">Mentor</p>
                             <img class="mentor-img" src="./assets/section-2/mentor-img/mentor3@2x.png" style="width: 37px; height: 37px">
                         </div>
-                        <div class="card-buttons">
-                            <a class="btn card-btn1" href="#">Daftar</a>
-                            <a class="btn card-btn2" href="#">Lihat Detail</a>
+                        <div class="card-buttons row">
+                            <div class="col-sm-12 col-xl-6">
+                                <a class="btn card-btn1" href="#">Daftar</a>
+                            </div>
+                            <div class="col-sm-12 col-xl-6">
+                                <a class="btn card-btn2" href="#">Lihat Detail</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -204,12 +216,9 @@
                     </div>
                 </div>
             </div>
-            <img class="section3-img1" src="./assets/section-3/img-1@2x.png">
-                <img class="section3-img2" src="./assets/section-3/img-2@2x.png">
-                <img class="section3-img3" src="./assets/section-3/img-3@2x.png">
-            <!-- <div class="col-sm-3 col-md-4 col-lg-5 img-wrapper" style="padding-top: 46px;">
-                
-            </div> -->
+            <img class="section3-img1" src="./assets/section-3/img-1.png">
+            <img class="section3-img2" src="./assets/section-3/img-2.png">
+            <img class="section3-img3" src="./assets/section-3/img-3.png">
             </div>
         </div>
     </div>
@@ -217,12 +226,16 @@
 
     <!-- Section 4 -->
     <div class="background-4" id="section4">
-        <div class="container">
+        <div class="container content-4">
             <div class="row">
-                <h1 class="section4-title">Apa kata mereka?</h1>
-                <div class="arrow">
+                <div class="col-xs-12 col-sm-6">
+                    <h1 class="section4-title">Apa kata mereka?</h1>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="arrow">
                     <img class="arrow-left" src="./assets/section-4/left-arrow.svg" style="margin-right: 25px;">
                     <img class="arrow-right" src="./assets/section-4/right-arrow.svg">
+                </div>
                 </div>
             </div>
         </div>
@@ -234,8 +247,8 @@
                         <p class="testi-text" style="height: 180px;">“Dari awal ada kelas ini saya tidak ragu untuk langsung daftar, karena saya sudah kenal dan sangat yakin materi yang akan dibawakan bakal asik.”</p>
                         <div class="container prof-content">
                             <div class="row">
-                                <div class="col-xs-2 col-lg-3 testi-img-1"></div>
-                                <div class="col-xs-10 col-lg-9 testi-prof">
+                                <div class="col-xs-2 col-md-3 testi-img-1"></div>
+                                <div class="col-xs-10 col-md-9 testi-prof">
                                   <div class="row">
                                     <p class="testi-name">Karina Anggraeni</p>
                                   </div>
@@ -254,8 +267,8 @@
                         <p class="testi-text" style="height: 90px;">“Materi teknisnya lengkap, sekarang saya sudah kerja di startup e-commerce.”</p>
                         <div class="container prof-content">
                             <div class="row">
-                                <div class="col-xs-2 col-lg-3 testi-img-2"></div>
-                                <div class="col-xs-10 col-lg-9 testi-prof">
+                                <div class="col-xs-2 col-md-3 testi-img-2"></div>
+                                <div class="col-xs-10 col-md-9 testi-prof">
                                   <div class="row">
                                     <p class="testi-name">Kevin Lee</p>
                                   </div>
@@ -274,8 +287,8 @@
                         <p class="testi-text" style="height: 120px;">“Kalau di ikut kelas di Agensip class materinya berurutan, jadi step-step nya betul dan terperinci.”</p>
                         <div class="container prof-content">
                             <div class="row">
-                                <div class="col-xs-2 col-lg-3 testi-img-3"></div>
-                                <div class="col-xs-10 col-lg-9 testi-prof">
+                                <div class="col-xs-2 col-md-3 testi-img-3"></div>
+                                <div class="col-xs-10 col-md-9 testi-prof">
                                   <div class="row">
                                     <p class="testi-name">Gilang Ramadhan</p>
                                   </div>
@@ -294,8 +307,8 @@
                         <p class="testi-text" style="height: 180px;">“Dari awal ada kelas ini saya tidak ragu untuk langsung daftar, karena saya sudah kenal dan sangat yakin materi yang akan dibawakan bakal asik.”</p>
                         <div class="container prof-content">
                             <div class="row">
-                                <div class="col-xs-2 col-lg-3 testi-img-1"></div>
-                                <div class="col-xs-10 col-lg-9 testi-prof">
+                                <div class="col-xs-2 col-md-3 testi-img-1"></div>
+                                <div class="col-xs-10 col-md-9 testi-prof">
                                   <div class="row">
                                     <p class="testi-name">Karina Anggraeni</p>
                                   </div>
@@ -314,8 +327,8 @@
                         <p class="testi-text" style="height: 90px;">“Materi teknisnya lengkap, sekarang saya sudah kerja di startup e-commerce.”</p>
                         <div class="container prof-content">
                             <div class="row">
-                                <div class="col-xs-2 col-lg-3 testi-img-2"></div>
-                                <div class="col-xs-10 col-lg-9 testi-prof">
+                                <div class="col-xs-2 col-md-3 testi-img-2"></div>
+                                <div class="col-xs-10 col-md-9 testi-prof">
                                   <div class="row">
                                     <p class="testi-name">Kevin Lee</p>
                                   </div>
@@ -334,8 +347,8 @@
                         <p class="testi-text" style="height: 120px;">“Kalau di ikut kelas di Agensip class materinya berurutan, jadi step-step nya betul dan terperinci.”</p>
                         <div class="container prof-content">
                             <div class="row">
-                                <div class="col-xs-2 col-lg-3 testi-img-3"></div>
-                                <div class="col-xs-10 col-lg-9 testi-prof">
+                                <div class="col-xs-2 col-md-3 testi-img-3"></div>
+                                <div class="col-xs-10 col-md-9 testi-prof">
                                   <div class="row">
                                     <p class="testi-name">Gilang Ramadhan</p>
                                   </div>
@@ -439,7 +452,7 @@
 
     <!-- Section 5 -->
     <div class="section5 container-fluid">
-        <img class="bg-right" src="./assets/section-5/bg-right.png">
+        <img class="bg-right d-none d-sm-none d-lg-block" src="./assets/section-5/bg-right.png">
         <div class="container">
             <div class="row">
             <div class="col-md-10" style="margin-top: 110px;">
@@ -455,17 +468,20 @@
     <footer id="bottom">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2 col-md-3 col-lg-3" style="padding-right: 0px;">
+                <div class="col-sm-12 col-md-3 foot-left" style="padding-right: 0px;">
                     <a href="#home"><img src="./assets/footer/agensip-logo.svg"></a>
                     <div class="footer-paragraph">
-                        <p class="footer-text">
+                        <p class="footer-text d-none d-lg-block">
                           Agensip class adalah platform <br> pendidikan kreatif yang diinisiai oleh Agensip Creative Agency untuk Kawula Muda Indonesia yang berminat dan ingin terjun dalam industri kreatif Indonesia.
+                        </p>
+                        <p class="footer-text d-block d-lg-none">
+                          Agensip class adalah platform pendidikan kreatif yang diinisiai oleh Agensip Creative Agency untuk Kawula Muda Indonesia yang berminat dan ingin terjun dalam industri kreatif Indonesia.
                         </p>
                     </div>  
                 </div>
-                <div class="col-sm-9 col-md-7 col-lg-8 footer-right">
+                <div class="col-sm-12 col-md-7 col-lg-8 footer-right">
                     <div class="row" style="margin-top: 20px;">
-                        <div class="col-sm-2 foot-1">
+                        <div class="col-sm-6 col-md-2 foot-1">
                             <h1 class="footer-title">Menu</h1>
                             <div class="footer-links">
                                 <a class="foot-link" href="#">Beranda</a> <br>
@@ -475,7 +491,7 @@
                                 <a class="foot-link" href="#">FAQ</a>
                             </div>
                         </div>
-                        <div class="col-sm-2 foot-2">
+                        <div class="col-sm-6 col-md-2 foot-2">
                             <h1 class="footer-title">Profil</h1>
                             <div class="footer-links">
                                 <a class="foot-link" href="#">Tentang Kami</a> <br>
@@ -483,29 +499,29 @@
                                 <a class="foot-link" href="#">Kontak Kami</a>
                             </div>
                         </div>
-                        <div class="col-md-3 foot-3">
+                        <div class="col-sm-6 col-md-3 foot-3">
                             <h1 class="footer-title-3">Terms & Privacy</h1>
                             <div class="footer-links">
                                 <a class="foot-link" href="#">Terms and Conditions</a> <br>
                                 <a class="foot-link" href="#">Privacy Policy</a>
                             </div>
                         </div>
-                        <div class="col-md-3 foot-4">
+                        <div class="col-sm-6 col-md-3 foot-4">
                             <h1 class="footer-title">Stay Update</h1>
                             <div class="row">
                                 <div class="container-fluid icon-list">
-                                    <a href="https://www.instagram.com/class.agensip/" target="_blank"
-                                        class="social-icon"><img src="./assets/footer/instagram.svg"
-                                            alt="instagram-icon"></a>
-                                    <a href="#" target="_blank"
-                                        class="social-icon"><img src="./assets/footer/gmail.svg"
-                                            alt="youtube-icon"></a>
-                                    <a href="https://www.facebook.com/Agensip-Class-110530717128636" target="_blank"
-                                        class="social-icon"><img src="./assets/footer/facebook.svg"
-                                            alt="facebook-icon"></a>
-                                    <a href="https://www.twitter.com/classagensip/" target="_blank"
-                                        class="social-icon"><img src="./assets/footer/twitter.svg"
-                                            alt="twitter-icon"></a>
+                                    <a href="https://www.instagram.com/class.agensip/" target="_blank" class="social-icon">
+                                      <img src="./assets/footer/instagram.svg" alt="instagram-icon">
+                                    </a>
+                                    <a href="#" target="_blank" class="social-icon">
+                                      <img src="./assets/footer/gmail.svg" alt="youtube-icon">
+                                    </a>
+                                    <a href="https://www.facebook.com/Agensip-Class-110530717128636" target="_blank" class="social-icon">
+                                      <img src="./assets/footer/facebook.svg" alt="facebook-ic">
+                                    </a>
+                                    <a href="https://www.twitter.com/classagensip/" target="_blank" class="social-icon">
+                                      <img src="./assets/footer/twitter.svg" alt="twitter-icon">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -531,36 +547,20 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/893de94a0a.js" crossorigin="anonymous"></script>
-
     <!-- Navbar Scrolling -->
-    <script>
-        // $('nav-link').on('click', function(e){
-        //     var link = $(this).attr('href');
-        //     var element = $(link);
-
-        //     $('body').animate({
-        //         scrollTop: element.offset().top - 50
-        //     }, 800, 'swing');
-
-        //     e.preventDefault();
-        // });
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"
             integrity="sha256-CfyPGYLRQ4v1O+mZa5ocQglABXGuaZmmfe8awy8Fxis=" crossorigin="anonymous">
-        </script>
-        <script>
-            $(function () {
-                var scroll = new SmoothScroll('a[href*="#home"]');
-                var scroll = new SmoothScroll('a[href*="#section2"]');
-                var scroll = new SmoothScroll('a[href*="#section4"]');
-                var scroll = new SmoothScroll('a[href*="#section4-2"]');
-                var scroll = new SmoothScroll('a[href*="#bottom"]');
-                speed = 300
-            });
-        </script>
-    <!-- Navbar Scrolling -->
+    </script>
+    <script>
+        $(function () {
+            var scroll = new SmoothScroll('a[href*="#home"]');
+            var scroll = new SmoothScroll('a[href*="#section2"]');
+            var scroll = new SmoothScroll('a[href*="#section4"]');
+            var scroll = new SmoothScroll('a[href*="#section4-2"]');
+            var scroll = new SmoothScroll('a[href*="#bottom"]');
+            speed = 300
+        });
+    </script>
     <script type="text/javascript">
         $(document).ready(function () {
             $(window).scroll(function () {
@@ -621,13 +621,13 @@
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 2
+                        slidesToShow: 4
                     }
                 },
                 {
-                    breakpoint: 400,
+                    breakpoint: 300,
                     settings: {
-                        slidesToShow: 2
+                        slidesToShow: 3
                     }
                 }
             ]
