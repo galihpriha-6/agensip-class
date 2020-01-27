@@ -639,7 +639,7 @@ html, body {
     padding-left: 90px;
     width: 100%;
     min-height: 935px;
-    max-height: 1300px;
+    max-height: 1500px;
 }
 
 .background-4-2-in {
@@ -1449,26 +1449,9 @@ footer {
         margin-left: -10px;
     }
     .background-4-2-in {
-        height: 1600px;
+        height: 1200px;
         border-radius: 180px 0px 0px 0px;
     }
-    .faq-quest-1,
-    .faq-quest-2,
-    .faq-quest-3,
-    .faq-quest-4 {
-        text-align: left;
-        max-width: 250px;
-        text-overflow: ellipsis;
-    }
-    .sec5-wrapper {
-        margin-top: 80px;
-    }
-    .footer-text {
-        padding-right: 15px;
-    }
-}
-
-@media (max-width: 360px) {
     .background-4 {
         margin-top: 140px;
     }
@@ -1478,5 +1461,63 @@ footer {
     .testimonial-cards {
         padding-left: 20px;
         margin-top: 40px !important;
+    }
+    .faq-quest-1,
+    .faq-quest-2,
+    .faq-quest-3,
+    .faq-quest-4 {
+        text-align: left;
+        max-width: 210px;
+        text-overflow: ellipsis;
+        line-height: 29px;
+    }
+    .sec5-wrapper {
+        margin-top: 80px;
+    }
+    .footer-text {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 340px) {
+    .sec2-card1,
+    .sec2-card2,
+    .sec2-card3 {
+        height: 520px;
+    }
+    .sec2-card1:hover,
+    .sec2-card2:hover,
+    .sec2-card3:hover {
+        height: 620px;
+    }
+    .card-buttons {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card-buttons {
+        margin-top: 50px;
+    }
+    .faq-quest-1,
+    .faq-quest-2,
+    .faq-quest-3,
+    .faq-quest-4 {
+        text-align: left;
+        max-width: 170px;
+        text-overflow: ellipsis;
+        line-height: 29px;
+    }
+    .background-4-2 {
+        height: 1350px;
+    }
+    .background-4-2-in {
+        height: 1350px;
+    }
+    .section5 {
+        height: 320px;
+    }
+    .sec5-wrapper {
+        margin-top: 40px;
     }
 }
