@@ -58,7 +58,8 @@ html, body {
 .section2-paragraph, 
 .sub-title, 
 .sub-title span, 
-.card-text, 
+.card-text,
+.why-card-text, 
 .testi-job, 
 .section4-2-text, 
 .faq-ans, 
@@ -94,7 +95,6 @@ html, body {
     font-family: "Inter-SemiBold";
 }
 /* Medium */
-.why-card-text, 
 .faq-quest-1, 
 .faq-quest-2, 
 .faq-quest-3, 
